@@ -30,8 +30,8 @@
             filePath = "DatastoreObserve/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "setUpObserver()"
             landmarkType = "7">
          </BreakpointContent>
@@ -39,15 +39,63 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2D34861E-DF4E-4B5B-B53A-E7DD7AC0E7D4"
+            uuid = "8398FE3D-1BC6-4514-8637-E649B9531290"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DatastoreObserve/ContentView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "setUpObserver()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8398FE3D-1BC6-4514-8637-E649B9531290 - dc69b4733c286f0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Amplify.DataStoreError&gt;) -&gt; () in DatastoreObserve.ContentViewModel.setUpObserver() -&gt; ()"
+                  moduleName = "DatastoreObserve"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mdlaw/temp/DatastoreObserve/DatastoreObserve/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "549">
+               </Location>
+               <Location
+                  uuid = "8398FE3D-1BC6-4514-8637-E649B9531290 - f67fe8336646e5c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Amplify.MutationEvent) -&gt; () in DatastoreObserve.ContentViewModel.setUpObserver() -&gt; ()"
+                  moduleName = "DatastoreObserve"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mdlaw/temp/DatastoreObserve/DatastoreObserve/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B630E1CC-D6C4-4297-964B-0C52F1B9B103"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DatastoreObserve/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
             landmarkName = "setUpObserver()"
             landmarkType = "7">
          </BreakpointContent>

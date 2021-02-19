@@ -20,10 +20,14 @@ class ContentViewModel: ObservableObject {
     }
     
     func setUpObserver() {
-        sink = Amplify.DataStore.publisher(for: TestModel.self).sink {
-            if case let .failure(error) = $0 {
-                print("LAWMICHA: Subscription received error \(error)")
+        sink = Amplify.DataStore.publisher(for: TestModel.self).sink { (complete) in
+            switch complete {
+            case .finished:
+                print("LAWMICHA: Subscription received finished")
+            case .failure(let error):
+                print(error)
             }
+            
         } receiveValue: { (changes) in
             print("LAWMICHA: Subscription received mutation \(changes)")
         }
@@ -60,6 +64,9 @@ struct ContentView: View {
                     switch result {
                     case .success:
                         print("LAWMICHA: DataStore.clear completed")
+                        
+                        print("Testing setting up observers right after clear is completed")
+                        vm.setUpObserver()
                     case .failure(let error):
                         print("LAWMICHA: Error \(error)")
                     }
