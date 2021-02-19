@@ -1,0 +1,39 @@
+type TestModel @model {
+  id: ID!
+
+  # ----------- Basic -----------
+
+  testInt: Int!
+  testFloat: Float!
+  testString: String!
+  testBool: Boolean!
+  testEnum: TestEnum!
+
+  nullableInt: Int
+  nullableFloat: Float
+  nullableString: String
+  nullableBool: Boolean
+  nullableEnum: TestEnum
+
+  intList: [Int!]!
+  floatList: [Float!]!
+  stringList: [String!]!
+  boolList: [Boolean!]!
+  enumList: [TestEnum!]!
+
+  intNullableList: [Int!]
+  floatNullableList: [Float!]
+  stringNullableList: [String!]
+  boolNullableList: [Boolean!]
+  enumNullableList: [TestEnum!]
+
+  # TODO:
+  #   Could also test the other nullable combinations. Ex:
+  #   nullableIntList[Int]!
+  #   nullableIntNullableList: [Int]
+}
+
+enum TestEnum {
+  VALUE_ONE
+  VALUE_TWO
+}

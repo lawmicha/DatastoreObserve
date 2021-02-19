@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21BA770825E05AA700532913 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BA770725E05AA700532913 /* AppDelegate.swift */; };
+		21BA770A25E05AA700532913 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BA770925E05AA700532913 /* SceneDelegate.swift */; };
+		21BA770C25E05AA700532913 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BA770B25E05AA700532913 /* ContentView.swift */; };
+		21BA770E25E05AA900532913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BA770D25E05AA900532913 /* Assets.xcassets */; };
+		21BA771125E05AA900532913 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BA771025E05AA900532913 /* Preview Assets.xcassets */; };
+		21BA771425E05AA900532913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BA771225E05AA900532913 /* LaunchScreen.storyboard */; };
+		21BA771F25E05AA900532913 /* DatastoreObserveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BA771E25E05AA900532913 /* DatastoreObserveTests.swift */; };
+		21BA772A25E05AA900532913 /* DatastoreObserveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BA772925E05AA900532913 /* DatastoreObserveUITests.swift */; };
+		780E8180F26A4F7988671D6E /* TestEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B82B1572B465E9C267800 /* TestEnum.swift */; };
+		8CB9E622D6FEDE80FE8D0E20 /* Pods_DatastoreObserveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 225326112E3504EC237CC4FD /* Pods_DatastoreObserveTests.framework */; };
+		A217915AF982863016F4C23D /* Pods_DatastoreObserve_DatastoreObserveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B24E3A3DCD8AB56F5EE5516 /* Pods_DatastoreObserve_DatastoreObserveUITests.framework */; };
+		AE9936B6E1C24C79BCA48AB2 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EB43BE215B49EC8476C0BC /* TestModel.swift */; };
+		B118B97487E4AD174A5B2788 /* Pods_DatastoreObserve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74CD07F18AD782C7B179EC0B /* Pods_DatastoreObserve.framework */; };
+		DDC04FD859BA43BEB8742421 /* TestModel+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E97CCE3914468FBE5592EE /* TestModel+Schema.swift */; };
+		E471012C09D341308E0056E0 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 0154E1C989F94E1F91FBE891 /* awsconfiguration.json */; };
+		FB24EEA280F0466B8C1ECF25 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = A70CDEAC643346CE9920E760 /* amplifyconfiguration.json */; };
+		FF8D0E254516414694E2A5E6 /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BABEA20B1F41268D435294 /* AmplifyModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21BA771B25E05AA900532913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BA76FC25E05AA700532913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BA770325E05AA700532913;
+			remoteInfo = DatastoreObserve;
+		};
+		21BA772625E05AA900532913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21BA76FC25E05AA700532913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21BA770325E05AA700532913;
+			remoteInfo = DatastoreObserve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0154E1C989F94E1F91FBE891 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = awsconfiguration.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		09EB43BE215B49EC8476C0BC /* TestModel.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = TestModel.swift; path = amplify/generated/models/TestModel.swift; sourceTree = "<group>"; };
+		0C97A9AB69C1A05A7FCB1F8B /* Pods-DatastoreObserve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatastoreObserve.release.xcconfig"; path = "Target Support Files/Pods-DatastoreObserve/Pods-DatastoreObserve.release.xcconfig"; sourceTree = "<group>"; };
+		1F6B82B1572B465E9C267800 /* TestEnum.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = TestEnum.swift; path = amplify/generated/models/TestEnum.swift; sourceTree = "<group>"; };
+		21BA770425E05AA700532913 /* DatastoreObserve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatastoreObserve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BA770725E05AA700532913 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21BA770925E05AA700532913 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		21BA770B25E05AA700532913 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21BA770D25E05AA900532913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21BA771025E05AA900532913 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		21BA771325E05AA900532913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21BA771525E05AA900532913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BA771A25E05AA900532913 /* DatastoreObserveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatastoreObserveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BA771E25E05AA900532913 /* DatastoreObserveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatastoreObserveTests.swift; sourceTree = "<group>"; };
+		21BA772025E05AA900532913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BA772525E05AA900532913 /* DatastoreObserveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatastoreObserveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BA772925E05AA900532913 /* DatastoreObserveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatastoreObserveUITests.swift; sourceTree = "<group>"; };
+		21BA772B25E05AA900532913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225326112E3504EC237CC4FD /* Pods_DatastoreObserveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatastoreObserveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A9868675DBC47E8A78D62BD /* schema.graphql */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text; name = schema.graphql; path = amplify/backend/api/datastoreobserve/schema.graphql; sourceTree = "<group>"; };
+		2B24E3A3DCD8AB56F5EE5516 /* Pods_DatastoreObserve_DatastoreObserveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatastoreObserve_DatastoreObserveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		322F18AE734796D3698B6209 /* Pods-DatastoreObserveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatastoreObserveTests.release.xcconfig"; path = "Target Support Files/Pods-DatastoreObserveTests/Pods-DatastoreObserveTests.release.xcconfig"; sourceTree = "<group>"; };
+		716BB50F912DDCF8D6588FF2 /* Pods-DatastoreObserve-DatastoreObserveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatastoreObserve-DatastoreObserveUITests.release.xcconfig"; path = "Target Support Files/Pods-DatastoreObserve-DatastoreObserveUITests/Pods-DatastoreObserve-DatastoreObserveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		74BABEA20B1F41268D435294 /* AmplifyModels.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = AmplifyModels.swift; path = amplify/generated/models/AmplifyModels.swift; sourceTree = "<group>"; };
+		74CD07F18AD782C7B179EC0B /* Pods_DatastoreObserve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DatastoreObserve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		751361FBAB051F69F4484120 /* Pods-DatastoreObserve-DatastoreObserveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatastoreObserve-DatastoreObserveUITests.debug.xcconfig"; path = "Target Support Files/Pods-DatastoreObserve-DatastoreObserveUITests/Pods-DatastoreObserve-DatastoreObserveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		82E97CCE3914468FBE5592EE /* TestModel+Schema.swift */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.swift; name = "TestModel+Schema.swift"; path = "amplify/generated/models/TestModel+Schema.swift"; sourceTree = "<group>"; };
+		848FF82D131D3F340F4D238A /* Pods-DatastoreObserve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatastoreObserve.debug.xcconfig"; path = "Target Support Files/Pods-DatastoreObserve/Pods-DatastoreObserve.debug.xcconfig"; sourceTree = "<group>"; };
+		A70CDEAC643346CE9920E760 /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = amplifyconfiguration.json; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		BE461D01424A4EADAC5740D2 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; name = amplifytools.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+		D0F8A90872CC8FE9373AB4FB /* Pods-DatastoreObserveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DatastoreObserveTests.debug.xcconfig"; path = "Target Support Files/Pods-DatastoreObserveTests/Pods-DatastoreObserveTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21BA770125E05AA700532913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B118B97487E4AD174A5B2788 /* Pods_DatastoreObserve.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BA771725E05AA900532913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB9E622D6FEDE80FE8D0E20 /* Pods_DatastoreObserveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BA772225E05AA900532913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A217915AF982863016F4C23D /* Pods_DatastoreObserve_DatastoreObserveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21BA76FB25E05AA700532913 = {
+			isa = PBXGroup;
+			children = (
+				96F39E7BCA5941E3AAC243B0 /* AmplifyModels */,
+				C9971F41F93841D5A4F5B3C4 /* AmplifyConfig */,
+				21BA770625E05AA700532913 /* DatastoreObserve */,
+				21BA771D25E05AA900532913 /* DatastoreObserveTests */,
+				21BA772825E05AA900532913 /* DatastoreObserveUITests */,
+				21BA770525E05AA700532913 /* Products */,
+				8816691ABABE067270B2BF67 /* Pods */,
+				FCF21A9674C66E832B551F14 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21BA770525E05AA700532913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21BA770425E05AA700532913 /* DatastoreObserve.app */,
+				21BA771A25E05AA900532913 /* DatastoreObserveTests.xctest */,
+				21BA772525E05AA900532913 /* DatastoreObserveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21BA770625E05AA700532913 /* DatastoreObserve */ = {
+			isa = PBXGroup;
+			children = (
+				21BA770725E05AA700532913 /* AppDelegate.swift */,
+				21BA770925E05AA700532913 /* SceneDelegate.swift */,
+				21BA770B25E05AA700532913 /* ContentView.swift */,
+				21BA770D25E05AA900532913 /* Assets.xcassets */,
+				21BA771225E05AA900532913 /* LaunchScreen.storyboard */,
+				21BA771525E05AA900532913 /* Info.plist */,
+				21BA770F25E05AA900532913 /* Preview Content */,
+			);
+			path = DatastoreObserve;
+			sourceTree = "<group>";
+		};
+		21BA770F25E05AA900532913 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				21BA771025E05AA900532913 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		21BA771D25E05AA900532913 /* DatastoreObserveTests */ = {
+			isa = PBXGroup;
+			children = (
+				21BA771E25E05AA900532913 /* DatastoreObserveTests.swift */,
+				21BA772025E05AA900532913 /* Info.plist */,
+			);
+			path = DatastoreObserveTests;
+			sourceTree = "<group>";
+		};
+		21BA772825E05AA900532913 /* DatastoreObserveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21BA772925E05AA900532913 /* DatastoreObserveUITests.swift */,
+				21BA772B25E05AA900532913 /* Info.plist */,
+			);
+			path = DatastoreObserveUITests;
+			sourceTree = "<group>";
+		};
+		8816691ABABE067270B2BF67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				848FF82D131D3F340F4D238A /* Pods-DatastoreObserve.debug.xcconfig */,
+				0C97A9AB69C1A05A7FCB1F8B /* Pods-DatastoreObserve.release.xcconfig */,
+				751361FBAB051F69F4484120 /* Pods-DatastoreObserve-DatastoreObserveUITests.debug.xcconfig */,
+				716BB50F912DDCF8D6588FF2 /* Pods-DatastoreObserve-DatastoreObserveUITests.release.xcconfig */,
+				D0F8A90872CC8FE9373AB4FB /* Pods-DatastoreObserveTests.debug.xcconfig */,
+				322F18AE734796D3698B6209 /* Pods-DatastoreObserveTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96F39E7BCA5941E3AAC243B0 /* AmplifyModels */ = {
+			isa = PBXGroup;
+			children = (
+				74BABEA20B1F41268D435294 /* AmplifyModels.swift */,
+				1F6B82B1572B465E9C267800 /* TestEnum.swift */,
+				09EB43BE215B49EC8476C0BC /* TestModel.swift */,
+				82E97CCE3914468FBE5592EE /* TestModel+Schema.swift */,
+			);
+			name = AmplifyModels;
+			path = .;
+			sourceTree = "<group>";
+		};
+		C9971F41F93841D5A4F5B3C4 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				BE461D01424A4EADAC5740D2 /* amplifytools.xcconfig */,
+				A70CDEAC643346CE9920E760 /* amplifyconfiguration.json */,
+				0154E1C989F94E1F91FBE891 /* awsconfiguration.json */,
+				2A9868675DBC47E8A78D62BD /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		FCF21A9674C66E832B551F14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74CD07F18AD782C7B179EC0B /* Pods_DatastoreObserve.framework */,
+				2B24E3A3DCD8AB56F5EE5516 /* Pods_DatastoreObserve_DatastoreObserveUITests.framework */,
+				225326112E3504EC237CC4FD /* Pods_DatastoreObserveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21BA770325E05AA700532913 /* DatastoreObserve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BA772E25E05AA900532913 /* Build configuration list for PBXNativeTarget "DatastoreObserve" */;
+			buildPhases = (
+				3C27A1FC1E8F3444532309E0 /* [CP] Check Pods Manifest.lock */,
+				21BA770025E05AA700532913 /* Sources */,
+				21BA770125E05AA700532913 /* Frameworks */,
+				21BA770225E05AA700532913 /* Resources */,
+				7F910BCCD6A5CE8DC7594D63 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatastoreObserve;
+			productName = DatastoreObserve;
+			productReference = 21BA770425E05AA700532913 /* DatastoreObserve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21BA771925E05AA900532913 /* DatastoreObserveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BA773125E05AA900532913 /* Build configuration list for PBXNativeTarget "DatastoreObserveTests" */;
+			buildPhases = (
+				0C154006866E4E10A37A7D2F /* [CP] Check Pods Manifest.lock */,
+				21BA771625E05AA900532913 /* Sources */,
+				21BA771725E05AA900532913 /* Frameworks */,
+				21BA771825E05AA900532913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BA771C25E05AA900532913 /* PBXTargetDependency */,
+			);
+			name = DatastoreObserveTests;
+			productName = DatastoreObserveTests;
+			productReference = 21BA771A25E05AA900532913 /* DatastoreObserveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21BA772425E05AA900532913 /* DatastoreObserveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21BA773425E05AA900532913 /* Build configuration list for PBXNativeTarget "DatastoreObserveUITests" */;
+			buildPhases = (
+				CAAE2D3A6C26D95A916B53E7 /* [CP] Check Pods Manifest.lock */,
+				21BA772125E05AA900532913 /* Sources */,
+				21BA772225E05AA900532913 /* Frameworks */,
+				21BA772325E05AA900532913 /* Resources */,
+				F26D46085107A940F95359A0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21BA772725E05AA900532913 /* PBXTargetDependency */,
+			);
+			name = DatastoreObserveUITests;
+			productName = DatastoreObserveUITests;
+			productReference = 21BA772525E05AA900532913 /* DatastoreObserveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21BA76FC25E05AA700532913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					21BA770325E05AA700532913 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					21BA771925E05AA900532913 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 21BA770325E05AA700532913;
+					};
+					21BA772425E05AA900532913 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 21BA770325E05AA700532913;
+					};
+				};
+			};
+			buildConfigurationList = 21BA76FF25E05AA700532913 /* Build configuration list for PBXProject "DatastoreObserve" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21BA76FB25E05AA700532913;
+			productRefGroup = 21BA770525E05AA700532913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21BA770325E05AA700532913 /* DatastoreObserve */,
+				21BA771925E05AA900532913 /* DatastoreObserveTests */,
+				21BA772425E05AA900532913 /* DatastoreObserveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21BA770225E05AA700532913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA771425E05AA900532913 /* LaunchScreen.storyboard in Resources */,
+				21BA771125E05AA900532913 /* Preview Assets.xcassets in Resources */,
+				21BA770E25E05AA900532913 /* Assets.xcassets in Resources */,
+				FB24EEA280F0466B8C1ECF25 /* amplifyconfiguration.json in Resources */,
+				E471012C09D341308E0056E0 /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BA771825E05AA900532913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BA772325E05AA900532913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C154006866E4E10A37A7D2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatastoreObserveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C27A1FC1E8F3444532309E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatastoreObserve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F910BCCD6A5CE8DC7594D63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatastoreObserve/Pods-DatastoreObserve-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatastoreObserve/Pods-DatastoreObserve-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DatastoreObserve/Pods-DatastoreObserve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAAE2D3A6C26D95A916B53E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DatastoreObserve-DatastoreObserveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F26D46085107A940F95359A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatastoreObserve-DatastoreObserveUITests/Pods-DatastoreObserve-DatastoreObserveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DatastoreObserve-DatastoreObserveUITests/Pods-DatastoreObserve-DatastoreObserveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DatastoreObserve-DatastoreObserveUITests/Pods-DatastoreObserve-DatastoreObserveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21BA770025E05AA700532913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA770825E05AA700532913 /* AppDelegate.swift in Sources */,
+				21BA770A25E05AA700532913 /* SceneDelegate.swift in Sources */,
+				21BA770C25E05AA700532913 /* ContentView.swift in Sources */,
+				FF8D0E254516414694E2A5E6 /* AmplifyModels.swift in Sources */,
+				780E8180F26A4F7988671D6E /* TestEnum.swift in Sources */,
+				AE9936B6E1C24C79BCA48AB2 /* TestModel.swift in Sources */,
+				DDC04FD859BA43BEB8742421 /* TestModel+Schema.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BA771625E05AA900532913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA771F25E05AA900532913 /* DatastoreObserveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BA772125E05AA900532913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21BA772A25E05AA900532913 /* DatastoreObserveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21BA771C25E05AA900532913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BA770325E05AA700532913 /* DatastoreObserve */;
+			targetProxy = 21BA771B25E05AA900532913 /* PBXContainerItemProxy */;
+		};
+		21BA772725E05AA900532913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21BA770325E05AA700532913 /* DatastoreObserve */;
+			targetProxy = 21BA772625E05AA900532913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21BA771225E05AA900532913 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21BA771325E05AA900532913 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21BA772C25E05AA900532913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21BA772D25E05AA900532913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21BA772F25E05AA900532913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 848FF82D131D3F340F4D238A /* Pods-DatastoreObserve.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DatastoreObserve/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DatastoreObserve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.DatastoreObserve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21BA773025E05AA900532913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C97A9AB69C1A05A7FCB1F8B /* Pods-DatastoreObserve.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DatastoreObserve/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DatastoreObserve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.DatastoreObserve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21BA773225E05AA900532913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0F8A90872CC8FE9373AB4FB /* Pods-DatastoreObserveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatastoreObserveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.DatastoreObserveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatastoreObserve.app/DatastoreObserve";
+			};
+			name = Debug;
+		};
+		21BA773325E05AA900532913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322F18AE734796D3698B6209 /* Pods-DatastoreObserveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatastoreObserveTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.DatastoreObserveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DatastoreObserve.app/DatastoreObserve";
+			};
+			name = Release;
+		};
+		21BA773525E05AA900532913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751361FBAB051F69F4484120 /* Pods-DatastoreObserve-DatastoreObserveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatastoreObserveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.DatastoreObserveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DatastoreObserve;
+			};
+			name = Debug;
+		};
+		21BA773625E05AA900532913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 716BB50F912DDCF8D6588FF2 /* Pods-DatastoreObserve-DatastoreObserveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DatastoreObserveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lawmicha.DatastoreObserveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DatastoreObserve;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21BA76FF25E05AA700532913 /* Build configuration list for PBXProject "DatastoreObserve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BA772C25E05AA900532913 /* Debug */,
+				21BA772D25E05AA900532913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BA772E25E05AA900532913 /* Build configuration list for PBXNativeTarget "DatastoreObserve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BA772F25E05AA900532913 /* Debug */,
+				21BA773025E05AA900532913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BA773125E05AA900532913 /* Build configuration list for PBXNativeTarget "DatastoreObserveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BA773225E05AA900532913 /* Debug */,
+				21BA773325E05AA900532913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21BA773425E05AA900532913 /* Build configuration list for PBXNativeTarget "DatastoreObserveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21BA773525E05AA900532913 /* Debug */,
+				21BA773625E05AA900532913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21BA76FC25E05AA700532913 /* Project object */;
+}
